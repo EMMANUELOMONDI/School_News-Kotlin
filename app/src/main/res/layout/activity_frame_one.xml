@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="frameOneVM" type="com.emmanuelsapplication.app.modules.frameone.data.viewmodel.FrameOneVM"/>
+    </data>
+
+    <LinearLayout
+        android:id="@+id/linearColumneventflow"
+        style="@style/groupStyleblue_800"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtEventFlow"
+            style="@style/txtDosisbold48"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ellipsize="end"
+            android:gravity="clip_horizontal|center"
+            android:letterSpacing="0.02"
+            android:singleLine="true"
+            android:text="EventFlow"
+            tools:text="EventFlow" />
+    </LinearLayout>
+</layout>

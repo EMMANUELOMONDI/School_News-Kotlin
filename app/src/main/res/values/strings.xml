@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">emmanuel_s_application</string>
+    <string name="loading">Loading…</string>
+    <string name="no_internet_connection">No internet connection!</string>
+<string name="msg_email_preferenc">Email preferences</string>
+  <string name="msg_no_weapons_on_c">No Weapons on Campus Policy</string>
+  <string name="msg_please_enter_th">Please enter the 6-digit code sent to your 
+email student@strathmore.edu for verification.</string>
+  <string name="lbl_logout">Logout</string>
+  <string name="lbl_next">Next</string>
+  <string name="lbl_more_events">More Events</string>
+  <string name="lbl_eventflow">EventFlow</string>
+  <string name="msg_by_checking_the">By checking the box you agree to our Terms and Conditions.</string>
+  <string name="msg_email_preferenc2">Email Preferences</string>
+  <string name="lbl_screen">Screen</string>
+  <string name="msg_please_enter_th2">Please enter the 6-digit code sent to your 
+email </string>
+  <string name="lbl_verify">Verify</string>
+  <string name="lbl_ict_services">ICT Services</string>
+  <string name="lbl_get_started">Get Started</string>
+  <string name="msg_6_9">6       9        7       5       4       9         </string>
+  <string name="msg_johndoe254_stra">johndoe254@strathmore.edu</string>
+  <string name="msg_dear_stratizens2">Dear Stratizens,
+
+In reference to the No Weapons on Campus Policy, we would like to remind you that the safety and well-being of all students, faculty, and staff is our top priority. 
+
+Kind regards,
+
+</string>
+  <string name="lbl_username">Username</string>
+  <string name="lbl_edit_profile">Edit profile</string>
+  <string name="lbl_save">Save</string>
+  <string name="msg_careers_job_ale">Careers Job Alerts</string>
+  <string name="lbl_bike_more">Bike More</string>
+  <string name="msg_strathmore_comm3">Strathmore Communication</string>
+  <string name="msg_strathmore_comm2">Strathmore Communications</string>
+  <string name="msg_login_with_goog">Login with Google</string>
+  <string name="msg_didn_t_receive">Didn\u2019t receive any code? Resend Again </string>
+  <string name="msg_sign_in_with_yo">sign in with your school email to access your account</string>
+  <string name="lbl_edit_profile2">Edit Profile</string>
+  <string name="lbl_john_doe">John Doe</string>
+  <string name="lbl_hey_john_doe">Hey John Doe</string>
+  <string name="lbl_dec_21_2023">Dec 21, 2023</string>
+  <string name="msg_for_verificatio">for verification.</string>
+  <string name="lbl_student_council">Student Council</string>
+  <string name="msg_https_www_exa">https://www.example.com
+</string>
+  <string name="lbl_welcome">Welcome</string>
+  <string name="msg_an_excellent_an">An Excellent and Credible Platform
+for University Communications</string>
+  <string name="lbl_almost_there">Almost there </string>
+  <string name="lbl_ict_office">ICT Office</string>
+  <string name="msg_end_your_strugg">End Your Struggles
+Keeping Up  With School Events</string>
+  <string name="msg_choose_topics_t">Choose topics to follow</string>
+  <string name="msg_enter_your_emai">Enter your email</string>
+  <string name="lbl_password">Password</string>
+  <string name="lbl_settings">Settings</string>
+  <string name="msg_you_have_3_upco">You have 3 upcoming events</string>
+  <string name="lbl_plant_a_tree">Plant a Tree</string>
+  <string name="msg_you_can_edit_yo">You can edit your Username and Photo</string>
+  <string name="msg_student_strathm">student@strathmore.edu</string>
+  <string name="msg_strathmore_comm">Strathmore
+Comm.</string>
+  <string name="msg_dear_stratizens">Dear Stratizens,
+
+In reference to the No Weapons on Campus Policy, we would like to remind you that the safety and well-being of all students, faculty, and staff is our top priority. 
+
+Kind regards,
+
+https://www.example.com
+
+Strathmore Communications</string>
+  <string name="msg_request_new_cod">Request new code in 30s</string>
+<string name="msg_please_enter_valid_pa">Please enter valid password</string>
+<string name="msg_please_enter_valid_text">Please enter valid text</string>
+</resources>

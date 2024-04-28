@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="frameFourVM" type="com.emmanuelsapplication.app.modules.framefour.data.viewmodel.FrameFourVM"/>
+    </data>
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linearColumnplaceyourdesi"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" android:orientation="vertical">
+        <ScrollView android:clipToPadding="false"
+            android:fillViewport="true" android:gravity="start"
+            android:id="@+id/scrollViewScrollview"
+            android:layout_height="0dp" android:layout_weight="1" android:layout_width="match_parent">
+            <FrameLayout android:id="@+id/frameScreen3"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent" style="@style/groupStyle">
+                <ImageView android:id="@+id/imagePlaceyourDesi"
+                    android:layout_gravity="start"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_placeyourdesi_827x400}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_placeyourdesi_827x400"/>
+                <LinearLayout
+                    android:id="@+id/linearColumnundrawloading"
+                    android:layout_gravity="bottom|center"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_24pxv"
+                    android:layout_marginEnd="@dimen/_29pxh"
+                    android:layout_marginStart="@dimen/_29pxh"
+                    android:layout_marginTop="@dimen/_24pxv"
+                    android:layout_width="match_parent" android:orientation="vertical">
+                    <ImageView android:id="@+id/imageUndrawloading"
+                        android:layout_gravity="end"
+                        android:layout_height="@dimen/_218pxh"
+                        android:layout_marginEnd="@dimen/_56pxh"
+                        android:layout_marginStart="@dimen/_56pxh"
+                        android:layout_width="@dimen/_192pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_undrawloading"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_undrawloading"/>
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txtLanguage"
+                        android:layout_gravity="start"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_10pxh"
+                        android:layout_marginStart="@dimen/_7pxh"
+                        android:layout_marginTop="@dimen/_35pxv"
+                        android:layout_width="wrap_content"
+                        android:singleLine="true"
+                        android:text="@{frameFourVM.frameFourModel.txtLanguage}"
+                        style="@style/txtDosisbold28" tools:text="@string/lbl_almost_there"/>
+                    <TextView android:gravity="start"
+                        android:id="@+id/txtDescription"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_10pxh"
+                        android:layout_marginStart="@dimen/_10pxh"
+                        android:layout_marginTop="@dimen/_20pxv"
+                        android:layout_width="match_parent"
+                        android:text="@{frameFourVM.frameFourModel.txtDescription}"
+                        style="@style/txtMontserratlight14" tools:text="@string/msg_please_enter_th"/>
+                    <FrameLayout android:id="@+id/frameOTPInpit"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_height="@dimen/_53pxv"
+                        android:layout_marginEnd="@dimen/_10pxh"
+                        android:layout_marginStart="@dimen/_10pxh"
+                        android:layout_marginTop="@dimen/_28pxv" android:layout_width="@dimen/_292pxh">
+                        <com.mukesh.OtpView
+                            android:focusableInTouchMode="true"
+                            android:id="@+id/otpViewOtpview"
+                            android:inputType="number"
+                            android:itemBackground="@color/gray_400_33"
+                            android:layout_gravity="start"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            app:OtpItemCount="6"
+                            app:OtpItemHeight="@dimen/_53pxv"
+                            app:OtpItemSpacing="@dimen/_10pxh"
+                            app:OtpItemWidth="@dimen/_40pxh"
+                            app:OtpLineColor="@android:color/transparent" app:OtpViewType="rectangle"/>
+                        <TextView android:ellipsize="end"
+                            android:gravity="top|start"
+                            android:id="@+id/txtLanguageOne"
+                            android:layout_gravity="bottom|center"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/_12pxv"
+                            android:layout_marginEnd="@dimen/_15pxh"
+                            android:layout_marginStart="@dimen/_15pxh"
+                            android:layout_marginTop="@dimen/_12pxv"
+                            android:layout_width="match_parent"
+                            android:singleLine="true"
+                            android:text=""
+                            style="@style/txtMulishromanregular20" tools:text=""/>
+                    </FrameLayout>
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:ellipsize="end" android:gravity="center"
+                        android:id="@+id/btnVerify"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_34pxv"
+                        android:layout_width="match_parent"
+                        android:letterSpacing="0.01"
+                        android:paddingBottom="@dimen/_15pxv"
+                        android:paddingEnd="@dimen/_30pxh"
+                        android:paddingStart="@dimen/_30pxh"
+                        android:paddingTop="@dimen/_15pxv"
+                        android:singleLine="true"
+                        android:text="@string/lbl_verify"
+                        android:textAllCaps="false"
+                        style="@style/btnSolidRounded" tools:text="@string/lbl_verify"/>
+                    <TextView android:ellipsize="end"
+                        android:gravity="center_horizontal"
+                        android:id="@+id/txtLanguageTwo"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_10pxh"
+                        android:layout_marginStart="@dimen/_10pxh"
+                        android:layout_marginTop="@dimen/_32pxv"
+                        android:layout_width="match_parent"
+                        android:singleLine="true"
+                        android:text="@{frameFourVM.frameFourModel.txtLanguageTwo}"
+                        style="@style/txtMulishromanbold13" tools:text="@string/msg_didn_t_receive"/>
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txtRequestnewcod"
+                        android:layout_gravity="start"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_87pxh"
+                        android:layout_marginStart="@dimen/_87pxh"
+                        android:layout_marginTop="@dimen/_2pxv"
+                        android:layout_width="wrap_content"
+                        android:singleLine="true"
+                        android:text="@{frameFourVM.frameFourModel.txtRequestnewcod}"
+                        style="@style/txtMulishromanregular13" tools:text="@string/msg_request_new_cod"/>
+                    <ImageButton
+                        android:background="@drawable/rectangle_bg_gray_900_radius_25_175"
+                        android:id="@+id/btnArrowright"
+                        android:layout_gravity="start"
+                        android:layout_height="@dimen/_50pxh"
+                        android:layout_marginEnd="@dimen/_10pxh"
+                        android:layout_marginStart="@dimen/_1pxh"
+                        android:layout_marginTop="@dimen/_81pxv"
+                        android:layout_width="@dimen/_50pxh"
+                        android:paddingHorizontal="@dimen/_18pxh"
+                        android:paddingVertical="@dimen/_18pxv"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/img_arrowright" tools:ignore="ContentDescription"/>
+                </LinearLayout>
+            </FrameLayout>
+        </ScrollView>
+    </LinearLayout>
+</layout>

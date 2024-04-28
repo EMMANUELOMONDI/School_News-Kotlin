@@ -1,5 +1,5 @@
 
-# emmanuel_s_application
+# Kotlin School News Application
 
 Built with AndroidX Support
 
